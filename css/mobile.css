@@ -31,6 +31,10 @@
     display: none;
   }
 
+  ul {
+    padding-left: 40px;
+  }
+
   .contact {
     margin-top: 80px;
   }
