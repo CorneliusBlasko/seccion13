@@ -102,4 +102,8 @@
   .showcaseItem {
     margin-left: 20px;
   }
+
+  #flag {
+    width: 20px;
+  }
 }

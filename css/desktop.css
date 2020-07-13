@@ -184,7 +184,7 @@ p.desc {
 }
 
 button.lang {
-  display: none;
+  display: flex;
   background-color: transparent;
   border: none;
   color: white;
@@ -220,7 +220,7 @@ ul {
 .contact li {
   display: inline;
   list-style-type: none;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.7);
   font-weight: 100;
   font-size: 17px;
 }
