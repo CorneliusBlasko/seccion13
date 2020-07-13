@@ -178,6 +178,10 @@ p.desc {
   margin-top: 20px;
 }
 
+#descDesktop2 {
+  font-size: 17px;
+}
+
 button.lang {
   display: none;
   background-color: transparent;
@@ -192,6 +196,24 @@ button.lang {
 ul {
   margin-top: 50px;
   padding-left: 0px;
+}
+
+#showcase {
+  display: flex;
+  flex-direction: column;
+}
+
+#showcase li {
+  margin-top: 30px;
+}
+
+#descMobile,
+#descMobile2 {
+  display: none;
+}
+
+.showcaseItem {
+  margin-left: 20px;
 }
 
 .contact li {

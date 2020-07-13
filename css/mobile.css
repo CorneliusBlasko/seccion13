@@ -17,14 +17,29 @@
     font-weight: 500;
     margin-left: 40px;
     margin-top: 40px;
+    margin-bottom: 10px;
     width: 600px;
   }
 
   p.desc {
-    display: flex;
     margin-left: 40px;
     font-size: 20px;
-    width: 600px;
+    overflow: scroll;
+    line-height: normal;
+  }
+
+  #descMobile,
+  #descMobile2 {
+    display: inline;
+  }
+
+  #descMobile2 {
+    margin-left: 40px;
+    font-size: 15px;
+  }
+
+  #descDesktop {
+    display: none;
   }
 
   button {
@@ -73,5 +88,17 @@
     z-index: 1;
     left: 0;
     top: 0;
+  }
+
+  #showcase {
+    margin-top: 40px;
+  }
+
+  #showcase li {
+    margin-top: 0px;
+  }
+
+  .showcaseItem {
+    margin-left: 20px;
   }
 }

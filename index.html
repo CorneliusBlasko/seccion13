@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/desktop.css">
     <link rel="stylesheet" href="./css/mobile.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
     <title>Sección 13</title>
 </head>
@@ -15,22 +16,27 @@
     <canvas class="container" id="container" role="main"></canvas>
     <div class="content">
         <h1 class="title">Alberto Mut</h1>
-        <p class="desc">Backend Java developer</p>
+        <p id="descDesktop" class="desc">Backend Java developer <span id="descDesktop2">(on his way to be full stack)</span></p>
+        <p id="descMobile" class="desc">Backend Java developer <br><span id="descMobile2">(on his way to be full stack)</span></p>
         <ul class="contact">
             <li>
                 <a href="http://blog.seccion13.com/" target="_blank">Blog</a></li>
-            <li>
-                <a target="_top" href="#">Portfolio</a></li>          
             <li><a href="https://seccion13.com/assets/cv_en.pdf" target="_blank">Resume</a></li>     
             <li><a href="https://github.com/CorneliusBlasko" target="_blank">Github</a></li>
             <li id="envelope">
                 <a href="mailto:admin@seccion13.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
             </li>
         </ul>
+        <ul class="contact"  id="showcase">
+            <li>
+                <a id="portfolio">Portfolio</a>
+            </li>
+            <li>
+                <a class="showcaseItem" href="http://relaxapp.seccion13.com" target="_blank">RelaxApp</a></li>
+            <li><a class="showcaseItem" href="https://seccion13.com/incentives" target="_blank">Incentives</a></li>     
+        </ul>
     </div>
 </div>
-<div class="blur blurTop"><canvas class="canvas"id="blurCanvasTop"></canvas></div>
-<div class="blur blurBottom"><canvas width="1000px" height="1000px" class="canvas" id="blurCanvasBottom"></canvas></div>
 <script src="./js/script.js"></script>
 </body>
 </html>
